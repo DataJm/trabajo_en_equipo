@@ -7,3 +7,7 @@ datos.to_csv("data_previa.csv")
 print('Jesus Monroy')
 
 print('aqui va el codigo')
+
+import requests
+# ups!
+datos_api = requests.get("whatever").json()
